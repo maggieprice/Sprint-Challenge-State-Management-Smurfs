@@ -24,7 +24,7 @@ class Form extends Component {
   }
 
   theNewSmurf = e => {
-    e.preventDefault();
+    // e.preventDefault();
     this.props.addNewSmurf(this.state.smurf);
     return (this.fetchSmurf)
   };
